@@ -34,33 +34,33 @@ void loop()
   
   digitalWrite(ledA, HIGH);  
   digitalWrite(ledD, HIGH);
-  digitalWrite(ledC, HIGH);
+  digitalWrite(ledC, HIGH);  //s
   digitalWrite(ledF, HIGH);
   digitalWrite(ledG, HIGH);
   delay(500);
   digitalWrite(ledA, HIGH);  
   digitalWrite(ledB, HIGH);
   digitalWrite(ledC, HIGH);
-  digitalWrite(ledE, HIGH);
+  digitalWrite(ledE, HIGH);  //a
   digitalWrite(ledF, HIGH);
   digitalWrite(ledG, HIGH);
   digitalWrite(ledD, LOW);
   delay(500);
   digitalWrite(ledE, HIGH);
   digitalWrite(ledF, HIGH);
-  digitalWrite(ledA, LOW);  
+  digitalWrite(ledA, LOW);    //i
   digitalWrite(ledB, LOW);
   digitalWrite(ledC, LOW);
   digitalWrite(ledG, LOW);
   delay(500);
   digitalWrite(ledB, HIGH);
   digitalWrite(ledC, HIGH);
-  digitalWrite(ledD, HIGH);
+  digitalWrite(ledD, HIGH);   //d
   digitalWrite(ledE, HIGH);
   digitalWrite(ledG, HIGH);
   digitalWrite(ledF, LOW);
-  delay(500);
-  digitalWrite(ledB, LOW); 
+  delay(500);  
+  digitalWrite(ledB, LOW);
   digitalWrite(ledE, LOW);
 }
  
