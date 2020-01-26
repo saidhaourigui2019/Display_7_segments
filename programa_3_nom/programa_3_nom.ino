@@ -59,7 +59,7 @@ void loop()
   digitalWrite(ledE, HIGH);
   digitalWrite(ledG, HIGH);
   digitalWrite(ledF, LOW);
-  delay(500);  
+  delay(1500);  
   digitalWrite(ledB, LOW);
   digitalWrite(ledE, LOW);
 }
